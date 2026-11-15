@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "linqes": {
+      "type": "http",
+      "url": "https://linq.es/mcp",
+      "headers": {
+        "Authorization": "Bearer ${LINQES_API_KEY}"
+      }
+    }
+  }
+}

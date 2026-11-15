@@ -1,0 +1,23 @@
+{
+  "name": "linqes-mcp",
+  "version": "1.0.0",
+  "description": "Connect Claude Code to the remote Linq.es Streamable HTTP MCP server (https://linq.es/mcp) to manage Link-in-Bio profiles, /s/ shortlinks, GA4 UTM tags, click analytics, and captured leads.",
+  "author": {
+    "name": "Team Linq.es",
+    "email": "hello@linq.es",
+    "url": "https://linq.es"
+  },
+  "homepage": "https://linq.es/integrations/mcp",
+  "repository": "https://github.com/giulianobr/linqes-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "link-in-bio",
+    "url-shortener",
+    "utm-builder",
+    "vcard",
+    "analytics",
+    "lead-capture"
+  ],
+  "mcpServers": "./.mcp.json"
+}

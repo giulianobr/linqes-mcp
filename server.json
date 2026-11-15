@@ -1,0 +1,51 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.giulianobr/linqes-mcp",
+  "title": "Linq.es MCP Server",
+  "description": "Manage Link-in-Bio pages, /s/ shortlinks, UTM tags, analytics, and captured leads on Linq.es.",
+  "version": "1.0.0",
+  "websiteUrl": "https://linq.es/integrations/mcp",
+  "repository": {
+    "url": "https://github.com/giulianobr/linqes-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://linq.es/images/logo.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "204x205"
+      ]
+    },
+    {
+      "src": "https://linq.es/images/logo-68.webp",
+      "mimeType": "image/webp",
+      "sizes": [
+        "68x68"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://linq.es/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer personal API key generated in Linq.es Account Settings (/admin/account-settings)",
+          "isRequired": true,
+          "value": "Bearer {api_key}",
+          "variables": {
+            "api_key": {
+              "description": "Linq.es Personal API Key starting with lnq_live_",
+              "format": "string",
+              "isRequired": true,
+              "isSecret": true,
+              "placeholder": "lnq_live_YOUR_PERSONAL_API_KEY"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

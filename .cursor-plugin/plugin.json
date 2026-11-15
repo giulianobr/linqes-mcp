@@ -1,0 +1,29 @@
+{
+  "$schema": "https://cursor.com/schemas/cursor-plugin/plugin.json",
+  "name": "linqes-mcp",
+  "displayName": "Linq.es MCP Server",
+  "version": "1.0.0",
+  "description": "Manage Link-in-Bio profiles, /s/ shortlinks, GA4 UTM parameters, click analytics, and captured leads via https://linq.es/mcp.",
+  "author": {
+    "name": "Team Linq.es",
+    "email": "hello@linq.es",
+    "url": "https://linq.es"
+  },
+  "homepage": "https://linq.es/integrations/mcp",
+  "repository": "https://github.com/giulianobr/linqes-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "link-in-bio",
+    "url-shortener",
+    "vcard",
+    "utm-builder",
+    "analytics",
+    "leads"
+  ],
+  "logo": "https://linq.es/images/logo.png",
+  "mcp": "../.mcp.json",
+  "skills": [
+    "../skills/linqes-mcp"
+  ]
+}

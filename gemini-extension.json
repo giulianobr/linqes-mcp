@@ -1,0 +1,15 @@
+{
+  "name": "linqes-mcp",
+  "version": "1.0.0",
+  "description": "Official Linq.es remote Streamable HTTP MCP extension for Gemini CLI. Manage Link-in-Bio pages, /s/ shortlinks, GA4 UTM tags, click analytics, and captured leads.",
+  "contextFileName": "skills/linqes-mcp/SKILL.md",
+  "mcpServers": {
+    "linqes": {
+      "description": "Linq.es remote Streamable HTTP MCP server (10 tools)",
+      "httpUrl": "https://linq.es/mcp",
+      "headers": {
+        "Authorization": "Bearer $LINQES_API_KEY"
+      }
+    }
+  }
+}
