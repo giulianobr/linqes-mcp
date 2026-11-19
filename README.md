@@ -1,5 +1,7 @@
 # Linq.es Official MCP Server (`https://linq.es/mcp`)
 
+[![HOL Guard](https://img.shields.io/endpoint?url=https%3A%2F%2Fhol.org%2Fapi%2Fregistry%2Fbadges%2Fplugin%3Fslug%3Dgiulianobr%252Flinqes-mcp%26metric%3Drelease)](https://hol.org/registry/plugins/giulianobr%2Flinqes-mcp?utm_source=hol_marketplace&utm_medium=plugins_badge&utm_campaign=plugins&utm_content=giulianobr%2Flinqes-mcp&ref=plugin-author-5711b9d6)
+
 [![mcptry](https://mcptry.com/badge/io.github.giulianobr/linqes-mcp)](https://mcptry.com/servers/io.github.giulianobr/linqes-mcp)
 
 Official Model Context Protocol (MCP) server manifests, IDE plugins, and agent skills for **[Linq.es](https://linq.es)** - the server-rendered Link-in-Bio, `/s/` URL shortener, QR code, vCard, and lead capture platform.
