@@ -1,6 +1,7 @@
 # Linq.es Official MCP Server (`https://linq.es/mcp`)
 
 [![mcptry](https://mcptry.com/badge/io.github.giulianobr/linqes-mcp)](https://mcptry.com/servers/io.github.giulianobr/linqes-mcp)
+[![Linq.es MCP connector](https://glama.ai/mcp/connectors/io.github.giulianobr/linqes-mcp/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.giulianobr/linqes-mcp)
 
 Official Model Context Protocol (MCP) server manifests, IDE plugins, and agent skills for **[Linq.es](https://linq.es)** - the server-rendered Link-in-Bio, `/s/` URL shortener, QR code, vCard, and lead capture platform.
 
